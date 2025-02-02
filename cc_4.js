@@ -46,3 +46,9 @@ let products = ["paper", "pen", "pencil"]; // output: names of the items
 for (let product of products) {
     console.log(`Product: ${product}`);
 }
+
+//Task 7
+let orders = [123, 321, 213]; // array of order IDs
+orders.forEach(order => {
+    console.log(`order ID: ${order}`)
+}); // log for the order IDs
