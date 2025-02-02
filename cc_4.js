@@ -23,3 +23,11 @@ while (stock > 0) {
     stock--; // decreases by 1
 }
 console.log("Stock decreased")
+
+// Task 4
+let responses = 0;
+do {
+    console.log(`Gathering responses: ${responses}`);
+    responses++;
+} while (responses < 3)
+    
