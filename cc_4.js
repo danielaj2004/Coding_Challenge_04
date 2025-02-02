@@ -15,3 +15,11 @@ for (let i = 0; i < sales.length; i++) {
     totalSales += sales[i]
 }
 console.log(`Total Sales: $${totalSales}`); // Output: total sales
+
+// Task 3
+let stock = 10; // current stock available 
+while (stock > 0) {
+    console.log(`Stock remaining: $(stock)`);
+    stock--; // decreases by 1
+}
+console.log("Stock decreased")
