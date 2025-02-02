@@ -30,4 +30,13 @@ do {
     console.log(`Gathering responses: ${responses}`);
     responses++;
 } while (responses < 3)
-    
+
+// Task 5
+let employee = {
+    name: "Martha",
+    position: "HR",
+    salary: 80000
+}; // object employee
+for (let key in employee) {
+    console.log(`${key}: ${employee[key]}`);
+}
