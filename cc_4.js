@@ -7,3 +7,11 @@ if (purchaseAmount > 100) {
     console.log("Discount Applied")
 }
 console.log(`Total amount after discount: $${finalAmount}`);
+
+// Task 2
+let sales = [196, 208, 230, 147, 104]; // array of sales
+let totalSales = 0;
+for (let i = 0; i < sales.length; i++) {
+    totalSales += sales[i]
+}
+console.log(`Total Sales: $${totalSales}`); // Output: total sales
